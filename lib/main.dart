@@ -136,7 +136,7 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: Colors.blue.shade50,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
           elevation: 2,
@@ -167,7 +167,7 @@ class _MyAppState extends State<MyApp> {
         ),
         scaffoldBackgroundColor: Colors.grey[900],
         cardColor: Colors.grey[850],
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: Colors.grey[850],
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
           elevation: 2,
